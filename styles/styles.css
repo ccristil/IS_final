@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #555555;
+    background-color: rgb(231, 231, 118);
+}
+/*random comment to practice*/
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    color: maroon; 
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited {
+    color: blue;
+}
+.resumelistheading {
+    font-weight: bold ;
+    font-style: normal;
+}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+.homebg {
+    background-image: url('../images/skatepark_background.webp');
+    background-position: top right;
+    /* background-repeat: ; */
+}
+.box1 {
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+
+    border: solid red 1px;
+}
+.box2 {
+    padding: 5px;
+    /*padding is the space in between the border and the letters*/
+}
+.box3 {
+    margin: 50px;
+    /*made the margins which exist outside of the borders*/
+}
